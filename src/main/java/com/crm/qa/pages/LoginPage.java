@@ -37,7 +37,7 @@ public class LoginPage extends Testbase{
 	public boolean loginPageLogo() {
 		return logoLogin.isDisplayed();
 	}
-	
+	//demo
 	public HomePage login(String email_address, String pwd) {
 		logInLink.click();
 		email.sendKeys(email_address);
